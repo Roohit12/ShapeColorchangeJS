@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+}
+#app {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+}
+#innerDiv {
+  width: 100px;
+  height: 100px;
+  background-color: whitesmoke;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 25%;
+  left: 23%;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.square {
+  border-radius: 0;
+}
+
+.triangle {
+  width: 40px;
+  height: 40px;
+  background: rgb(218, 221, 218);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+#colour {
+  height: 30px;
+  width: 120px;
+  display: block;
+  margin-top: 30%;
+}
+#shape {
+  height: 30px;
+  width: 120px;
+  margin-top: 30%;
+  display: block;
+}
+#buttons {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
